@@ -1,0 +1,67 @@
+message
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[2021-04-08 02:35:02 +0000] [20] [INFO] Starting gunicorn 19.9.0
+[2021-04-08 02:35:02 +0000] [20] [INFO] Listening at: unix:/tmp/gunicorn.sock (20)
+[2021-04-08 02:35:02 +0000] [20] [INFO] Using worker: gevent
+[2021-04-08 02:35:02 +0000] [27] [INFO] Booting worker with pid: 27
+[2021-04-08 02:35:02 +0000] [28] [INFO] Booting worker with pid: 28
+[2021-04-08 02:35:02 +0000] [35] [INFO] Booting worker with pid: 35
+[2021-04-08 02:35:02 +0000] [36] [INFO] Booting worker with pid: 36
+Processing /opt/ml/code
+"Collecting pandas (from -r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl (10.0MB)"
+Collecting numpy (from -r requirements.txt (line 2))
+  Downloading https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl (19.9MB)
+"Collecting nltk (from -r requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/8c/1c/c0981ef85165eb739c10f2b24d7729cef066b2bc220fbd1dd0d3c67df39a/nltk-3.6.1-py3-none-any.whl (1.5MB)"
+"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl (115kB)"
+"Collecting html5lib (from -r requirements.txt (line 5))
+  Downloading https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl (112kB)"
+"Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl (510kB)"
+Processing /opt/ml/code
+"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)"
+Collecting regex (from nltk->-r requirements.txt (line 3))
+"Collecting pandas (from -r requirements.txt (line 1))
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl
+  Downloading https://files.pythonhosted.org/packages/38/3f/4c42a98c9ad7d08c16e7d23b2194a0e4f3b2914662da8bc88986e4e6de1f/regex-2021.4.4.tar.gz (693kB)"
+"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)"
+Collecting tqdm (from nltk->-r requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/72/8a/34efae5cf9924328a8f34eeb2fdaae14c011462d9f0e3fcded48e1266d1c/tqdm-4.60.0-py2.py3-none-any.whl (75kB)
+"Collecting joblib (from nltk->-r requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl (294kB)"
+"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl"
+"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)"
+"Collecting webencodings (from html5lib->-r requirements.txt (line 5))
+  Downloading https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl"
+"Building wheels for collected packages: train, regex
+  Running setup.py bdist_wheel for train: started"
+"Collecting numpy (from -r requirements.txt (line 2))
+  Running setup.py bdist_wheel for train: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-wgm9kt5j/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3
+  Running setup.py bdist_wheel for regex: started
+  Using cached https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl"
+"Collecting nltk (from -r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/8c/1c/c0981ef85165eb739c10f2b24d7729cef066b2bc220fbd1dd0d3c67df39a/nltk-3.6.1-py3-none-any.whl"
+"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl"
+"Collecting html5lib (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl"
+"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)"
+Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1))
+  Using cached https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl
+"Collecting regex (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/38/3f/4c42a98c9ad7d08c16e7d23b2194a0e4f3b2914662da8bc88986e4e6de1f/regex-2021.4.4.tar.gz"
+"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)"
+"Collecting tqdm (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/72/8a/34efae5cf9924328a8f34eeb2fdaae14c011462d9f0e3fcded48e1266d1c/tqdm-4.60.0-py2.py3-none-any.whl"
+"Collecting joblib (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl"
+"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl"
+"Collecting webencodings (from html5lib->-r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl"
+"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)"
