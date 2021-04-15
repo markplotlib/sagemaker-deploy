@@ -1,8 +1,16 @@
 # Machine Learning Deployment using AWS SageMaker
 
-Code and associated files 
+> an end-to-end ML service for building, training, tuning, and deploying ML algorithms.
 
-This repository contains code and associated files for deploying ML models using AWS SageMaker. This repository consists of a number of tutorial notebooks for various coding exercises, mini-projects, and project files that will be used to supplement the lessons of the Nanodegree.
+AWS SageMaker is used here in a Sentiment Analysis example.
+
+For a production ML model, building it is a smaller task
+than is *updating and maintaining* it in the face of new data.
+
+## Source Code and associated files 
+
+This is a learning project. Its repository and its [starter code base originates from Udacity](https://github.com/udacity/sagemaker-deployment/tree/master/Project).
+It contains code and associated files for deploying ML models using AWS SageMaker. This repository consists of a number of tutorial notebooks for various coding exercises, mini-projects, and project files that will be used to supplement the lessons of the Nanodegree.
 
 ## Table Of Contents
 
